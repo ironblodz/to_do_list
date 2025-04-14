@@ -5,10 +5,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-DO List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body>
-    <h1>Hello World</h1>
+    <section class="section-header container">
+        <header>
+            <h1>ToDo List</h1>
+        </header>
+    </section>
+    <section class="section-add-task">
+        <div class="form-container">
+            <input name="add-task" type="text" id="add-task" placeholder="Inserir tarefa">
+            <button type="submit">
+                <span>Criar</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="lucide lucide-circle-plus-icon lucide-circle-plus">
+                    <circle cx="12" cy="12" r="10" />
+                    <path d="M8 12h8" />
+                    <path d="M12 8v8" />
+                </svg>
+            </button>
+        </div>
+    </section>
 </body>
 
 </html>
