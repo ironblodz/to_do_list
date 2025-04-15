@@ -104,12 +104,14 @@ body {
   justify-content: flex-start;
   align-items: flex-start;
   gap: 10px;
+  margin: 15px 0;
 }
 
 .tasks-container .task-item p {
   margin: 0;
   line-height: 140%;
   font-size: 1.4rem;
+  width: 100%;
 }
 .tasks-container .task-item button {
   background-color: transparent;
